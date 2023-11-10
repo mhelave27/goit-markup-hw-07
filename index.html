@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Homework#6</title>
+    <title>Homework#7</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -26,15 +26,15 @@
     <header class="header">
         <div class="container main-header-container">
             <nav class="nav-menu">
-                    <a class="logo" href="/goit-markup-hw-06/index.html" target="_blank"><span class="colored">WEB</span><span
+                    <a class="logo" href="/goit-markup-hw-07/index.html" target="_blank"><span class="colored">WEB</span><span
                      class="black">STUDIO</span></a>
 
                 <ul class="nav-list">
                     <li class="nav-list-item"><a class="nav-link active" href="index.html">Studio</a></li>
-                    <li class="nav-list-item"><a class="nav-link" href="/goit-markup-hw-06/portfolio.html">Portfolio</a></li>
+                    <li class="nav-list-item"><a class="nav-link" href="/goit-markup-hw-07/portfolio.html">Portfolio</a></li>
                     <li class="nav-list-item"><a class="nav-link" href="./index.html">Contacts</a></li>
-            </ul>
-        </nav>
+                </ul>
+            </nav>
 
     <!-- address section-->
         <address class="address">
@@ -42,6 +42,12 @@
                 <li class="adress-list-item"><a class="address-link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
                 <li class="adress-list-item"><a class="address-link" href="tel:+11(000)111-11-11">+11(000)111-11-11</a></li>
             </ul>
+            <button class="menu-toggle js-open-menu" aria-expanded="false" aria-controls="mobile-menu">
+                <svg class="mobile-menu-icon" width="32" height="22">
+                    <use href="./sprite.svg#menu-burger">
+                    </use>
+                </svg>
+            </button>
         </address>
         </div>
     </header>
@@ -119,7 +125,7 @@
             <h2 class="team-title">Our Team</h2>
             <ul class="team-list-menu">
                 <li class="team-list-item">
-                    <img src="images/img4.jpg" alt="Mark">
+                    <img src="images/mark.jpg" width="264px" height="260px" alt="Mark">
                 <div class="team-item-details">
                     <h3 class="team-name">Mark Guerrero</h3>
                     <p class="team-position">Product Designer</p>
@@ -147,7 +153,7 @@
                     </ul>
 
                 <li class="team-list-item">
-                    <img src="images/img5.jpg" alt="Tom">
+                    <img src="images/tom.jpg" width="264px" height="260px" alt="Tom">
                 <div class="team-item-details">
                     <h3 class="team-name">Tom Ford</h3>
                     <p class="team-position">Front End Developer</p>
@@ -175,7 +181,7 @@
                     </ul>
 
                 <li class="team-list-item">
-                    <img src="images/img6.jpg" alt="Camela">
+                    <img src="images/camila.jpg" width="264px" height="260px" alt="Camila">
                 <div class="team-item-details">
                     <h3 class="team-name">Camila Garcia</h3>
                     <p class="team-position">Marketing</p>
@@ -203,7 +209,7 @@
                     </ul>
 
                 <li class="team-list-item">
-                    <img src="images/img7.jpg" alt="Daniel">
+                    <img src="images/daniel.jpg" width="264px" height="260px" alt="Daniel">
                 <div class="team-item-details">
                     <h3 class="team-name">Daniel Wilson</h3>
                     <p class="team-position">UI Designer</p>
@@ -298,7 +304,7 @@
     <footer>
         <section class="container footer-section">
             <div class= "footer-items">
-                <a class="footer-logo" href="/goit-markup-hw-06/index.html" target="_blank"><span class="colored">WEB</span><span class="white">STUDIO</span></a>
+                <a class="footer-logo" href="/goit-markup-hw-07/index.html" target="_blank"><span class="colored">WEB</span><span class="white">STUDIO</span></a>
                 <p class="footer-description">Increase the flow of customers and<br>
                     sales for your business with digital<br>
                     marketing & growth solutions.</p>
@@ -404,7 +410,62 @@
             </button>
         </div>
     </div>
+<!-- ----Mobile--------- -->
+    <div class="menu-container js-menu-container" id="mobile-menu">
+        <button type="button" class="menu-toggle js-close-menu mobile-close-btn">&times;</button>
+
+        <ul class="mobile-menu-list">
+            <li class="mobile-menu-items">
+                <a class="mobile-menu-link active" href="index.html">Studio</a></li>
+            <li class="mobile-menu-items">
+                <a class="mobile-menu-link" href="portfolio.html">Portfolio</a></li>
+            <li class="mobile-menu-items">
+                <a class="mobile-menu-link" href="#">Contacts</a></li>
+        </ul>
+
+        <ul class="mobile-contact-list">
+            <li class="mobile-contact-items">
+                <a class="mobile-contact-link" href="tel:+11(000)111-11-11">+11(000)111-11-11</a>
+            </li>
+            <li class="mobile-contact-items">
+                <a class="mobile-contact-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+            </li>
+        </ul>
+
+        <ul class="mobile-social-media-list">
+            <li class="mobile-social-media-items">
+                <a class="mobile-social-media-link">
+                    <svg class="mobile-social-media-icon" width="24" height="24">
+                        <use href="./sprite.svg#icon-instagram"></use>
+                </svg>
+                </a>
+            </li>
+            <li class="mobile-social-media-items">
+                <a class="mobile-social-media-link">
+                    <svg class="mobile-social-media-icon" width="24" height="24">
+                        <use href="./sprite.svg#icon-twitter"></use>
+                    </svg>
+                </a>
+            </li>
+            <li class="mobile-social-media-items">
+                <a class="mobile-social-media-link">
+                    <svg class="mobile-social-media-icon" width="24" height="24">
+                        <use href="./sprite.svg#icon-facebook"></use>
+                    </svg>
+                </a>
+            </li>
+            <li class="mobile-social-media-items">
+                <a class="mobile-social-media-link">
+                    <svg class="mobile-social-media-icon" width="24" height="24">
+                        <use href="./sprite.svg#icon-linkedin2"></use>
+                    </svg>
+                </a>
+            </li>
+        </ul>
+    </div>
+
     <script src="js/modal.js"></script>
+    <script src="js/mobile.menu.js"></script>
 </body>
 
 </html>
